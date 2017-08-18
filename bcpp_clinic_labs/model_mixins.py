@@ -21,8 +21,6 @@ class SubjectRequisitionModelMixin(
         PreviousVisitModelMixin,
         UpdatesRequisitionMetadataModelMixin, models.Model):
 
-    # subject_visit = models.ForeignKey(SubjectVisit, on_delete=PROTECT)
-
     objects = Manager()
 
     def save(self, *args, **kwargs):
@@ -41,8 +39,3 @@ class SubjectRequisitionModelMixin(
 
     class Meta:
         abstract = True
-
-#     class Meta(VisitTrackingCrfModelMixin.Meta, RequiresConsentMixin.Meta):
-#         consent_model = 'bcpp_subject.subjectconsent'
-#         app_label = 'bcpp_subject'
-#         anonymous_consent_model = 'bcpp_subject.anonymousconsent'
