@@ -1,0 +1,5 @@
+MICROTUBE = 'Microtube'
+RESEARCH_BLOOD_DRAW = 'Research Blood Draw'
+VIRAL_LOAD = 'Viral Load'
+ELISA = 'ELISA'
+VENOUS = 'venous'
