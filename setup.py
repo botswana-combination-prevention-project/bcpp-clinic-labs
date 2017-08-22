@@ -11,7 +11,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='bcpp-clinic-labs',
-    version='0.1.1',
+    version='0.1.0',
     author=u'Coulson Thabo Kgathi',
     author_email='ckgathi@gmail..com',
     packages=find_packages(),
