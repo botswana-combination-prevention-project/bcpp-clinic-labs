@@ -26,6 +26,7 @@ processing_profile.add_processes(process_rbd_bc, process_rbd_pl)
 
 panel_vl = RequisitionPanel(
     name=VIRAL_LOAD,
+    abbreviation='VL',
     aliquot_type=wb,
     processing_profile=processing_profile)
 
